@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Fahad\\Desktop\\BlockChain\\contracts\\LibraryBookRegistry.sol": {
+      "lastModificationDate": 1793196622007,
+      "contentHash": "5634e61f981f4036a4adfd3dfe7d73b1",
+      "sourceName": "contracts/LibraryBookRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "LibraryBookRegistry"
+      ]
+    }
+  }
+}

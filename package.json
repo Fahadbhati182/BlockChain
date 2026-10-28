@@ -1,0 +1,36 @@
+{
+  "name": "blockchain-library-system",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Blockchain-Based Library Book Tracking System using Solidity, Hardhat, Ethers.js, React, and Node.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "seed:contract": "hardhat run scripts/seed.js --network localhost",
+    "frontend:install": "cd frontend && npm install",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "backend:install": "cd backend && npm install",
+    "backend:dev": "cd backend && npm run dev",
+    "dev:all": "concurrently \"npm run node\" \"npm run backend:dev\" \"npm run frontend:dev\""
+  },
+  "keywords": [
+    "blockchain",
+    "solidity",
+    "hardhat",
+    "ethers",
+    "library",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "concurrently": "^9.1.2",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.18"
+  }
+}
